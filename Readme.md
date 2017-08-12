@@ -1,4 +1,4 @@
-## Basic PHP Challenges
+## Manapay Basic PHP Challenges
 
 Hi,
 
