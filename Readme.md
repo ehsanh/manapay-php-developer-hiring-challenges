@@ -2,7 +2,7 @@
 
 Hi,
 
-We are looking for professional PHP developers to join our team. Instead of going through a ~~boring~~ long interview process, we decided that code often speaks for itself. If you're up to the challenge, please fork this repository, take an hour play with these problems and submit your solutions.
+We are looking for professional PHP developers to join our team. Instead of going through a ~~boring~~ long interview process, we decided that code often speaks for itself. If you're up to the challenge, please fork this repository, take an hour to play with these problems and submit your solutions.
 
 ### Submission
 
