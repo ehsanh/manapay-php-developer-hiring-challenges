@@ -20,8 +20,17 @@ class Question
 
 
 // start editing here
-
-
+class Answer extends Exception
+{
+    function getAnswer($e)
+    {
+        $reflectionInstance = new ReflectionObject($e);
+        $property = $reflectionInstance->getProperty('answer');
+        $property->setAccessible(true);
+        return $property->getValue($e);
+    }
+}
+$e = new Answer();
 
 // end editing here
 

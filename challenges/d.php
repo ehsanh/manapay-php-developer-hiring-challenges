@@ -5,8 +5,8 @@
 
 echo "<!doctype html>\n";
 
-$username = @$_GET['username'] ? $_GET['username'] : '';
-$password = @$_GET['password'] ? $_GET['password'] : '';
+$username = @$_POST['username'] ? $_POST['username'] : '';
+$password = @$_POST['password'] ? $_POST['password'] : '';
 $password = md5($password);
 
 $pdo = new PDO('sqlite::memory:');
